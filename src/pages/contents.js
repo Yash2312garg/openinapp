@@ -1,8 +1,8 @@
 import {BiCreditCardAlt,BiLike,BiPurchaseTag,BiUser} from "react-icons/bi";
-import PieChart from "./components.js/piechart";
+import PieChart from "./piechart";
 import { useState, useEffect, useCallback } from "react";
-import AppointmentInfo from "./components.js/appointmentinfo";
-import LineChart from "./components.js/linechart";
+import AppointmentInfo from "./appointmentinfo";
+import LineChart from "./linechart";
 const Content=()=>{
     let [appointmentList, setAppointmentList] = useState([]);
     const fetchData = useCallback(() => {
